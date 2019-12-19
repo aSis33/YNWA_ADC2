@@ -1,0 +1,33 @@
+Solid principle was introduced by Robert C. Martin (Uncle Bob), in his 2000 paper Design Principles and Design Patterns.
+The actual SOLID acronym was, however, identified later by Michael Feathers.
+Single Responsibility Principle (SRP):
+In programming, the Single Responsibility Principle states that every module or 
+class should have responsibility over a single part of the functionality provided by the software.
+
+
+
+For example:
+
+Let’s take the class A which does the following operations:
+1. Open a database connection
+2. Fetch data from database
+3. Write the data in an external file
+
+Class A violates SRP !
+
+S- SINGLE RESPONSIBILITY PRINCIPLE(SRP)
+ * Problems:
+
+- Class A handles lot of operations.
+
+Suppose any of the following change happens in future like :
+1. New database
+2. Adopt ORM to manage queries in the database
+3. Change in output structure
+
+* So in all the cases the above class would be changed.
+* Which might affect the implementation of the other two operations as
+well.
+* Solution:
+- So ideally according to SRP there should be three classes
+each having the single responsibility.

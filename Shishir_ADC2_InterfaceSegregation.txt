@@ -1,0 +1,13 @@
+Interface Segregation in SOLID principles:
+
+- A client should never be forced to implement an interface or depend on a method that it doesn’t use.
+- Example:
+	- abstract class ShapeInterface {
+	  	area();
+		volume();
+	  }
+
+	- Here, any shape we create needs to implement the volume method in above interface. But, not all shapes have volumes.
+	  So, this interface would force, let's say SquareClass to implement the volume method which is of no use to it.
+
+- This is the example of interface segregation.

@@ -1,0 +1,11 @@
+git clone- It is primarily used to point to a an existing repository and make a clone or copy of the repo at in a new directory, at another location
+
+git push -The git push command is used to upload local repository content to a remote repository
+ 
+git pull - The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match the content.
+
+merge conflict- Merge conflict can be resolved using the command line and a text editor. It is caused by competing line changes. 
+
+git branches- Git branches are used when number of people are working in the project and making changes
+
+git commit - The git commit command is one of the core primary functions of Git.Prior use of the git add command is required to select the changes that will be stages for the next commit.

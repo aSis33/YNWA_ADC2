@@ -1,0 +1,8 @@
+Explanation of git basic commands:
+
+Git clone - The git clone command copies an existing Git repository.
+Git push - The git push command is used to upload local repository content to a remote repository.
+Git pull - The git pull command is used to fetch and download content from a remote repository and update the local repository.
+Merge conflict - A merge conflict usually occurs when your current branch and the branch you want to merge into the current branch have diverged.
+Git branches - The git branch command lets you create, list, rename, and delete branches.
+Git commit - The commit command is used to save your changes to the local repository.

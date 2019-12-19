@@ -1,0 +1,11 @@
+Git clone - It is used to target an existing repository and create a clone, or copy of the target repository.
+
+Git push - It is used to upload local repository content to a remote repository.
+
+Git pull - It is used to Fetch from and integrate with another repository or a local branch
+
+Merge conflict - Merge conflicts occur when competing changes are made to the same line of a file, or when one person edits a file and another person deletes the same file.
+
+Git branch - A branch in Git is simply a lightweight movable pointer to one of these commits. The default branch name in Git is master. 
+
+Git commit - The "commit" command is used to save your changes to the local repository.

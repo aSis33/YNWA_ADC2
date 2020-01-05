@@ -1,0 +1,22 @@
+git clone 
+Utility : To copy a git repository from remote source, also sets the remote to original source so that you can pull again.
+How to : git clone <:clone git url:>
+
+git push or pull
+Utility : Push or Pull your changes to remote. If you have added and committed your changes and you want to push them. 
+Or if your remote has updated and you want those latest changes.
+How to : git pull <:remote:> <:branch:> and git push <:remote:> <:branch:>
+
+git merge conflict
+Utility : Merge two branches you were working on.
+How to : Switch to branch you want to merge everything in. git merge <:branch_you_want_to_merge:>
+
+git branch
+Utility : Lists out all the branches.
+How to : git branch or git branch -a to list all the remote branches as well.
+
+git commit
+Utility : commits your changes and sets it to new commit object for your remote.
+How to : git commit -m”sweet little commit message”
+
+
